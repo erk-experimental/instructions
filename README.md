@@ -59,7 +59,7 @@ Now if you open up [GitHub](https://github.com/) and login, you should be able t
 
 ### Setting up your custom domain
 
-#### Enable GitHub Pages
+#### Add custom domain to GitHub Pages
 
 1. In GitHub, open up your repository and go to `Settings > Pages`
 2. Under `custom domain`, enter your custom domain (without the `www` or `https`) and click `save`
