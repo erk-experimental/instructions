@@ -12,24 +12,8 @@ First, [create a free-tier AWS account](aws.amazon.com/free) and log in.
 2. Click the `IAM` result (should be under `Services`)
 3. In the left navbar, under `Access management`, click `Roles`
 4. Click the orange `Create role` button on the right
-5. Under `Trusted entity type`, choose `Custom trust policy`
-6. In the text editor, replace the existing text with this:
-
-```
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": "sts:AssumeRole",
-            "Principal": {
-                "AWS": "arn:aws:iam::992382521243:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_assume-client-roles_edf84e468e5c48a5"
-            }
-        }
-    ]
-}
-```
-
+5. Under `Trusted entity type`, choose `AWS account`
+6. Under `An AWS account`, check the `Another AWS account` radio button. Enter `992382521243` into the `Account ID` field (this is my personal AWS account)
 7. Click `Next`, then add the policies I sent you by typing them into the search bar and checking the box
 8. Click `Next`, then give the role a name. This can be anything you want.
 9. Click `Create role`
