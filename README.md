@@ -4,7 +4,7 @@ If you choose to run your project on AWS, you'll want to add me as an authorized
 
 ### Follow these steps
 
-First, [create a free-tier AWS account](aws.amazon.com/free) and log in.
+First, [create a free-tier AWS account](https://aws.amazon.com/free) and log in.
 
 ### Create IAM Role
 
