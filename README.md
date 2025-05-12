@@ -1,4 +1,4 @@
-## Working in Amazon Web Services (AWS)
+# Working in Amazon Web Services (AWS)
 
 If you choose to run your project on AWS, you'll want to add me as an authorized user to your AWS account. This lets me work on the project under your account, without requiring you to give me your account's login info.
 
@@ -28,7 +28,7 @@ First, [create a free-tier AWS account](https://aws.amazon.com/free) and log in.
 
 On that same role page, look for the `Summary` panel. Send me the `ARN` as well as the URL under `Link to switch roles in console`.
 
-## Manage hosting and domain
+# GitHub hosting and domain
 
 We'll be using GitHub Pages to host your website. The URL will look like:
 
