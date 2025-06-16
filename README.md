@@ -14,7 +14,8 @@ First, [create a free-tier AWS account](https://aws.amazon.com/free) and log in.
 4. Click the orange `Create role` button on the right
 5. Under `Trusted entity type`, choose `AWS account`
 6. Under `An AWS account`, check the `Another AWS account` radio button. Enter `992382521243` into the `Account ID` field (this is my personal AWS account)
-7. Click `Next`, then add the policies I sent you by typing them into the search bar and checking the box
+7. Click `Next`, then add the policy `AdministratorAccess` by typing it into the search bar and checking the box. _This gives me permissions to work with the various AWS services needed to build your project_
+
 8. Click `Next`, then give the role a name. This can be anything you want.
 9. Click `Create role`
 
@@ -30,7 +31,7 @@ On that same role page, look for the `Summary` panel. Send me the `ARN` as well 
 
 # GitHub hosting and domain
 
-We'll be using GitHub Pages to host your website. The URL will look like:
+We may decide to use GitHub Pages to host your website. The URL will look like:
 
 ```
 <github-username>.github.io
